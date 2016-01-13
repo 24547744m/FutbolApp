@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Club Name"
+        android:id="@+id/tvLeagueName"
+        android:layout_marginTop="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="position"
+        android:id="@+id/tvPosition"
+        android:layout_below="@+id/tvLeagueName"
+        android:layout_alignLeft="@+id/tvLeagueName"
+        android:layout_alignStart="@+id/tvLeagueName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="points"
+        android:id="@+id/tvPoints"
+        android:layout_below="@+id/tvPosition"
+        android:layout_alignLeft="@+id/tvPosition"
+        android:layout_alignStart="@+id/tvPosition" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="goals"
+        android:id="@+id/tvGoals"
+        android:layout_below="@+id/tvPoints"
+        android:layout_alignLeft="@+id/tvPoints"
+        android:layout_alignStart="@+id/tvPoints" />
+</RelativeLayout>
